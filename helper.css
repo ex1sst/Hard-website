@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+}
+
+:root {
+    --font-inter: "Inter", serif;
+    --font-urban: "Urbanist", serif;
+    --bg-section: 'red';
+    --bg-header: #1B1AFF;
+}
+
+
+.title {
+    color: #101010;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: var(--font-urban);
+}
+
+.section-sales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sales-report {
+    max-width: 1114px;
+    width: 90%;
+    background-color: white;
+    margin-left: 6%;
+    gap: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sales-report-left {}
+
+.sales-report-left-top {
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 18px;
+    box-shadow: 20px 40px 80px 0px rgba(89, 96, 135, 0.12);
+}
+
+.sales-report-left-top-title {
+    color: rgb(29, 30, 37);
+    font-family: var(--font-inter);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+
+    margin-bottom: 16px;
+}
+
+.sales-report-left-sales-report {
+    color: rgb(29, 30, 37);
+    font-family: var(--font-inter);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.sales-report-left-bot {
+    padding: 20px 20px 20px 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(27, 26, 255);
+    box-shadow: 20px 40px 80px 0px rgba(89, 96, 135, 0.12);
+}
+
+.sales-report-left-bot-top-text {
+    color: rgb(138, 165, 247);
+    font-family: var(--font-inter);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.sales-report-left-bot-mid-text {
+    color: rgb(255, 255, 255);
+    font-family: var(--font-inter);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.sales-report-left-bot-bot-text-for-img {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sales-report-left-bot-bot-text-left {
+    color: rgb(96, 211, 156);
+    font-family: var(--font-inter);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+
+    margin-left: 4px;
+    margin-right: 6px;
+}
+
+.sales-report-left-bot-bot-text-right {
+    color: rgb(138, 137, 255);
+    font-family: var(--font-inter);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.5px;
+}
+
+.sales-report-right {
+    padding-top: 33px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sales-report-right-top-text {
+    color: rgb(16, 16, 16);
+    font-family: var(--font-urban);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.sales-report-right-mid-text {
+    max-width: 447px;
+
+    color: rgb(117, 123, 138);
+    font-family: var(--font-inter);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%;
+
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.sales-report-right-bot-cont-text-p {
+    color: rgb(16, 16, 16);
+    font-family: var(--font-inter);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.sales-report-right-bot-cont {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.sales-report-right-bot-cont-text {
+    display: flex;
+}
+
+.sales-report-right-bot-cont-text-svg {
+    margin-right: 12px;
+}
+
+
+@media screen and (max-width : 1150px) {
+    .sales-report {
+        gap: 4%;
+        align-items: center;
+    }
+
+    .sales-report-left {
+        width: 71%;
+        max-width: 339px;
+    }
+
+    .sales-report-left-svg {
+        width: 100%;
+    }
+
+    .sales-report-right-top-text {
+        font-size: 47px;
+    }
+
+    .sales-report-right {
+        padding: 0;
+    }
+
+    .sales-report-right-bot-cont-text-svg {
+        min-width: 22px;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .sales-report {
+        flex-direction: column;
+        margin-left: 0;
+        width: calc(100% - 48px);
+    }
+
+    .sales-report-left {
+        width: calc(100% - 48px);
+        min-width: 0px;
+        max-width: 550px;
+        margin-bottom: 55px;
+    }
+
+    .sales-report-left-svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sales-report-left-top-title {
+        font-size: 30px;
+    }
+
+    .sales-report-right {
+        max-width: 550px;
+        width: 100%;
+        margin-top: 25px;
+        background-color: white;
+    }
+
+    .sales-report-right-bot-cont-text {
+        align-items: center;
+    }
+
+    .sales-report-left-bot-top-text {
+        font-size: 11px;
+    }
+
+    .sales-report-left-bot-mid-text {
+        font-size: 11px;
+    }
+
+    .sales-report-left-bot-bot-text-left {
+        font-size: 11px;
+    }
+
+    .sales-report-left-bot-bot-text-right {
+        font-size: 11px;
+    }
+}
+
+/* SECTION DELIVERY */
+
+.delivering-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.div-for-h {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivering {
+    max-width: 1200px;
+    width: 84%;
+    background-color: white;
+}
+
+.delivering-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ready-for-future {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
+.left-div {
+    /* background-image: url('./images/Rectangle\ 39895.jpeg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    width: 50%;
+
+    /* padding: 48px; */
+    position: relative;
+}
+
+.left-div-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left-div-bg {
+    /* position: absolute; */
+    /* opacity: 0; */
+    width: 100%;
+}
+.left-div-c {
+    padding: 48px;
+    width: calc(100% - 96px);
+    height: calc(100% - 96px);
+    background-color: rgba(26, 39, 39, 0.6);
+    position: absolute;
+    top: 0;
+}
+.right-div {
+    width: 50%;
+    display: flex;
+}
+
+.div-for-h {
+    margin-bottom: 106px;
+}
+
+.left-div-text-top {
+    margin-bottom: 12px;
+}
+
+.left-div-text-mid {
+    margin-bottom: 182px;
+}
+
+.div-for-left-div-text-bot {
+    display: flex;
+    background-color: rgb(167, 244, 106);
+}
+
+.left-div-text-bot-svg {
+    margin-left: 12px;
+}
+
+.right-div-in-left-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    background-color: rgb(224, 254, 205);
+    padding: 32px 24px 24px 32px;
+}
+
+.div-for-right-div-in-left-in-text-bot {
+    display: flex;
+}
+
+.right-div-in-left-in-text-bot {
+    margin-right: 28px;
+}
