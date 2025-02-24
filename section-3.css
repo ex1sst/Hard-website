@@ -1,0 +1,242 @@
+.section-why-we-are-different {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 141px 0px 140px 0px;
+}
+
+.c-for-all {
+    width: 84%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.c-in-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.c-in-left-top-text {
+    color: rgb(16, 16, 16);
+    font-family: "Urbanist";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 110%;
+    max-width: 513px;
+    margin-bottom: 24px;
+}
+
+.c-in-left-mid-text {
+    color: rgb(117, 123, 138);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%;
+    max-width: 406px;
+}
+
+.c-in-right {
+    width: 36%;
+    min-width: 290px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-in-right-img {
+    width: 100%;
+}
+
+.c-in-right-svg {
+    position: absolute;
+}
+
+.c-in-right-img-in {
+    width: 36%;
+    position: absolute;
+    bottom: 25px;
+    right: 23px;
+    border-radius: 8px;
+}
+
+.c-in-left-bot-text {
+    box-shadow: 20px 40px 80px 0px rgba(45, 51, 81, 0.12);
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+}
+
+.c-in-left-bot-text-left {
+    margin-right: 24px;
+}
+
+.c-in-left-bot-text-right-top {
+    color: rgb(16, 16, 16);
+    font-family: "Archivo";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.c-in-left-bot-text-right-bot {
+    color: rgb(117, 123, 138);
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.img2 {
+    transform: translate(-25px, 2.5px);
+    border-radius: 100%;
+}
+
+.img3 {
+    transform: translate(-50px, 2.5px);
+    border-radius: 100%;
+}
+
+.div-for-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-left-top {
+    color: rgb(16, 16, 16);
+font-family: 'Urbanist';
+font-size: 60px;
+font-weight: 700;
+line-height: 110%;
+}
+
+.h-right-top{
+    color: rgb(117, 123, 138);
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 160%;
+text-align: left;
+}
+
+
+
+.left-div-text-top {
+    color: rgb(167, 244, 106);
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 160%;
+text-align: left;
+text-transform: uppercase;
+}
+
+.left-div-text-mid {
+    color: rgb(255, 255, 255);
+font-family: Urbanist;
+font-size: 40px;
+font-weight: 700;
+line-height: 110%;
+text-align: left;
+}
+
+.left-div-c {
+    
+}
+
+.div-for-left-div-text-bot {
+    border-radius: 8px;
+    padding: 16px 24px 16px 24px;
+}
+
+.left-div-text-bot {
+    color: rgb(16, 16, 16);
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 150%;
+text-align: center;
+}
+
+.right-div {
+    margin-left: 30px;
+}
+
+.right-div-in-left-in-text-top {
+    color: rgb(16, 16, 16);
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+}
+
+.right-div-in-left-in-text-bot {
+    color: rgb(16, 16, 16);
+    font-family: Urbanist;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 0px;
+
+
+}
+
+.right-div-in-left-in-text-top {
+    margin-bottom: 68px;
+    color: rgb(16, 16, 16);
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.right-div-in-left-in {
+    
+}
+
+.right-div-in-left-in-text-bot {
+    color: rgb(16, 16, 16);
+    font-family: 'Urbanist';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.right-div-in-left-in {
+    border-radius: 16px;
+}
+
+.right-div-in-right-top-text {
+    color: rgb(16, 16, 16);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.right-div-in-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px 24px 24px 32px;
+}
+
+.right-div-in-right-bot-text {
+    color: rgb(16, 16, 16);
+    font-family: Urbanist;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 110%;
+    text-align: left;
+}
