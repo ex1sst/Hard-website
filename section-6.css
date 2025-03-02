@@ -1,0 +1,204 @@
+.section-inspiring {
+    display: flex;
+    justify-content: center;
+    background: rgb(245, 248, 254);
+    padding: 118px 0px 128px 0px;
+}
+
+.global-c {
+    max-width: 1200px;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-for-all-chosen {
+    display: flex;
+    align-items: center;
+}
+
+.c-for-h {
+    max-width: 786px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 112px;
+}
+
+.h-bot-c-for-h {
+    color: rgb(117, 123, 138);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%;
+    margin-top: 16px;
+}
+
+.h-top-c-for-h {
+    color: rgb(16, 16, 16);
+    font-family: 'Urbanist';
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 110%;
+    text-align: center;
+}
+
+.c-for-choose {
+    position: relative;
+    border-radius: 26px;
+    background: rgb(27, 26, 255);
+    max-width: 310px;
+    width: 100%;
+    padding: 85px 33px 48px 33px;
+    display: flex;
+    justify-content: center;
+}
+
+.most-popular {
+    padding: 14px 18px 14px 18px;
+    position: absolute;
+    top: -35px;
+    border: 8px solid rgb(255, 255, 255);
+    border-radius: 60px;
+    background: rgb(167, 244, 106);
+
+}
+
+.most-popular-h {
+    color: rgb(29, 30, 37);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.blue-c-top-gold {
+    color: rgb(29, 30, 37);
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    margin-bottom: 9px;
+}
+
+.blue-c-top-c-for-100 {
+    color: rgb(255, 255, 255);
+    font-family: 'Urbanist';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.blue-c-line {
+    border: 1px solid rgb(98, 165, 255);
+    width: 244px;
+    margin: 28px 0px 24px 0px;
+}
+
+.blue-c-mid {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.blue-c-mid-for-small {
+    display: flex;
+}
+
+.svg-blue-c {
+    margin-right: 10px;
+}
+
+.no-discount {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.blue-c-bot {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+
+    padding: 12px 24px 12px 24px;
+    margin-top: 58px;
+
+    color: rgb(27, 26, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.c-for-choose-left {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(233, 236, 242);
+
+    border-bottom-left-radius: 26px;
+    border-top-left-radius: 26px;
+
+    padding: 24px 19px 30px 23px;
+}
+
+.c-for-choose-right {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(233, 236, 242);
+
+    border-bottom-right-radius: 26px;
+    border-top-right-radius: 26px;
+
+    padding: 24px 19px 30px 23px;
+}
+
+.left-c-top-50 {
+    color: rgb(29, 30, 37);
+    font-family: 'Urbanist';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 110%;
+
+}
+
+.left-c-top-month {
+    color: rgb(29, 30, 37);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.no-discount-left {
+    color: rgb(29, 30, 37);
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.left-c-line {
+    border: 1px solid rgb(242, 244, 252);
+    width: 244px;
+    margin: 28px 0px 24px 0px;
+}
+
+.left-c-bot {
+    border-radius: 8px;
+    background: rgb(242, 244, 252);
+
+    padding: 12px 24px 12px 24px;
+    margin-top: 38px;
+
+    color: rgb(42, 133, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+@media screen and (max-width : 925px) {
+    .section-inspiring {
+        display: none;
+    }
+}
